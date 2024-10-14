@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/style.css">
 </head>
 <body>
-    <h1>Programación para niños</h1>
+    <header>
+        <nav class="navbar mt-3 p-1">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-white" href="#" >
+                  <img src="/bootstrap-5.3.3-dist/images/logo.png" alt="Logo" width="40" class="d-inline-block">
+                  Devs Jr
+                </a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="¿Buscas algo?" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                  </form>
+              </div>
+          </nav>
+    </header>
+    <main class="p-4 mt-5">
+        <div class="container-sm row m-auto justify-content-md-center pt-5">
+            <div class="col-12 col-md-6">
+                <h1 class="fw-bold">¿Qué esperas para aprender a programar?</h1>
+                <h2> Con nosotros es muy sencillo ;)</h2>
+                <p>Ten acceso a variedad de cursos que pondrán a prueba tu imaginación y tus capacidades para resolver problemas mientras desarrollas un mayor pensamiento lógico.</p>
+            </div>
+            <div class="col-12 col-md-6 align-self-middle p-5 text-center">
+                <button type="button" class="btn btn-primary">Comienza Ahora</button>
+            </div>
+        </div>
+    </main>
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
