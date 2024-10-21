@@ -6,18 +6,74 @@ Camilo   14/10/24     Se crean estilos iniciales de la página.
  -----------------------------------------------------------------------------------------------
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-:root{
-    --background-home:#1f1e28;
+:root {
+  --background-home: #1f1e28;
+  --dm-background-acordeon: #1f1e28;
+  --dm-letter-color: rgb(245, 245, 245);
+  --dm-transparent: rgba(0, 0, 0, 0);
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: var(--background-home);
-    color: white;
-    font-family: "Poppins", sans-serif;
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    31deg,
+    rgba(2, 0, 36, 1) 40%,
+    rgba(9, 9, 121, 1) 96%
+  );
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container,
+.container-sm {
+  margin-top: 6vh !important;
+  height: 65vh !important;
+}
+
+.text.col {
+  margin-top: 5vh;
+  text-align: right;
+}
+
+.imgs {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgs:hover {
+  transform: scale(1.07);
+}
+
+/*
+Estilos del acordeon, CSS variables de bootstrap, no tocar
+*/
+
+.title-accordion {
+  margin-left: 2vh;
+  margin-bottom: 3vh;
+}
+
+.accordion-item {
+  max-width: 100vh;
+}
+
+.accordion-image-companion {
+  max-width: 73vh;
+  margin-right: 10vh;
+  margin-top: -20vh;
+}
+
+.accordion {
+  --bs-accordion-color: var(--dm-letter-color);
+  --bs-accordion-bg: var(--dm-transparent);
+  --bs-accordion-border-color: none;
+  --bs-accordion-btn-color: var(--dm-letter-color);
+  --bs-accordion-btn-icon: url(/programacion-ni-os/bootstrap-5.3.3-dist/icons/chevron-down.svg);
+  --bs-accordion-btn-focus-box-shadow: none;
 }
