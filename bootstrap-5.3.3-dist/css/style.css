@@ -23,8 +23,8 @@ body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     31deg,
-    rgba(2, 0, 36, 1) 40%,
-    rgba(9, 9, 121, 1) 96%
+    rgb(1, 0, 25) 40%,
+    rgb(5, 5, 74) 96%
   );
   color: white;
   font-family: "Poppins", sans-serif;
@@ -74,6 +74,6 @@ Estilos del acordeon, CSS variables de bootstrap, no tocar
   --bs-accordion-bg: var(--dm-transparent);
   --bs-accordion-border-color: none;
   --bs-accordion-btn-color: var(--dm-letter-color);
-  --bs-accordion-btn-icon: url(/programacion-ni-os/bootstrap-5.3.3-dist/icons/chevron-down.svg);
+  --bs-accordion-btn-icon: url(./bootstrap-5.3.3-dist/icons/chevron-down.svg);
   --bs-accordion-btn-focus-box-shadow: none;
 }
