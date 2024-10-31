@@ -1,0 +1,61 @@
+@media (min-width: 1800px) {
+  .container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  .hero-text{
+    font-size: 20px;
+  }
+
+  .titles-acrd{
+    font-size: 25px;
+  }
+
+  .middle-text{
+    font-size: 20px;
+  }
+
+  .custom-btn{
+    font-size: 25px;
+  }
+
+  .imgs{
+    width: 40rem;
+    height: auto;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  .custom-btn {
+    font-size: 25px;
+  }
+
+  .elements-container {
+    height: 80% !important;
+  }
+
+  .middle-text{
+    text-align: left;
+  }
+
+  .middle-title{
+    text-align: left;
+  }
+
+  .imgs{
+    width: 100%;
+    height: auto;
+  }
+}

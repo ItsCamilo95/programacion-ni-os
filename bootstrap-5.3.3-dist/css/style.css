@@ -1,10 +1,3 @@
-/* 
- -----------------------------------------------------------------------------------------------
-Usuario  Fecha        Descripción
-------------------------------------------------------------------------------------------------
-Camilo   14/10/24     Se crean estilos iniciales de la página.
- -----------------------------------------------------------------------------------------------
-*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -21,23 +14,12 @@ Camilo   14/10/24     Se crean estilos iniciales de la página.
 
 body {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    31deg,
-    rgb(1, 0, 25) 40%,
-    rgb(5, 5, 74) 96%
-  );
+  background: linear-gradient(31deg, rgb(1, 0, 25) 40%, rgb(5, 5, 74) 96%);
   color: white;
   font-family: "Poppins", sans-serif;
 }
 
-.container,
-.container-sm {
-  margin-top: 6vh !important;
-  height: 65vh !important;
-}
-
-.text.col {
-  margin-top: 5vh;
+.text {
   text-align: right;
 }
 
@@ -50,24 +32,6 @@ body {
   transform: scale(1.07);
 }
 
-/*
-Estilos del acordeon, CSS variables de bootstrap, no tocar
-*/
-
-.title-accordion {
-  margin-left: 2vh;
-  margin-bottom: 3vh;
-}
-
-.accordion-item {
-  max-width: 100vh;
-}
-
-.accordion-image-companion {
-  max-width: 73vh;
-  margin-right: 10vh;
-  margin-top: -20vh;
-}
 
 .accordion {
   --bs-accordion-color: var(--dm-letter-color);
